@@ -68,16 +68,22 @@ import pandas as pd
 ## Output:
 HEAD
 ![image](https://github.com/user-attachments/assets/83971512-c9d7-4f69-a99f-f4adb168c97b)
+
 COPY
 ![image](https://github.com/user-attachments/assets/050d5fb0-530e-44a1-af77-8d3efee5b86c)
+
 FIT TRANSFORM
 ![image](https://github.com/user-attachments/assets/b6eb5738-6f07-4879-bfc3-4c036a8deb7c)
+
 LOGISTIC REGRESSION
 ![image](https://github.com/user-attachments/assets/01e1999e-f442-459e-b78a-67125b48ee1a)
+
 ACCURACY SCORE
 ![image](https://github.com/user-attachments/assets/9090fd8a-b688-49aa-abe9-30b8f3f6a309)
+
 CONFUSION MATRIX
 ![image](https://github.com/user-attachments/assets/3b8815d4-c8c6-4e9c-8e41-63657ee97bb4)
+
 CLASSIFICATION REPORT
 ![image](https://github.com/user-attachments/assets/9dca7f91-7d47-4044-88ca-af9627d61d1b)
 
