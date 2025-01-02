@@ -8,10 +8,11 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the required packages and print the present data.
+2. Print the placement data and salary data.
+3. Find the null and duplicate values.
+4. Using logistic regression find the predicted values of accuracy , confusion matrices.
+5. Display the results
 
 ## Program:
 ```
@@ -20,6 +21,7 @@ Program to implement the the Logistic Regression Model to Predict the Placement 
 Developed by: John Wilfred Thomas J W
 RegisterNumber:  24013517
 */
+```
 ```
 import pandas as pd
  data=pd.read_csv("Placement_Data.csv")
@@ -61,11 +63,23 @@ import pandas as pd
  classification_report1=classification_report(y_test,y_pred)
  print(classification_report1)
  lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
-## Output:
-![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
-![Screenshot 2024-11-17 221558](https://github.com/user-attachments/assets/0f5804f6-3361-46a9-9ae8-6989b0265f01)
-![Screenshot 2024-11-17 221632](https://github.com/user-attachments/assets/85578e93-6072-4728-a078-802f36a5e83b)
+```
 
+## Output:
+HEAD
+![image](https://github.com/user-attachments/assets/83971512-c9d7-4f69-a99f-f4adb168c97b)
+COPY
+![image](https://github.com/user-attachments/assets/050d5fb0-530e-44a1-af77-8d3efee5b86c)
+FIT TRANSFORM
+![image](https://github.com/user-attachments/assets/b6eb5738-6f07-4879-bfc3-4c036a8deb7c)
+LOGISTIC REGRESSION
+![image](https://github.com/user-attachments/assets/01e1999e-f442-459e-b78a-67125b48ee1a)
+ACCURACY SCORE
+![image](https://github.com/user-attachments/assets/9090fd8a-b688-49aa-abe9-30b8f3f6a309)
+CONFUSION MATRIX
+![image](https://github.com/user-attachments/assets/3b8815d4-c8c6-4e9c-8e41-63657ee97bb4)
+CLASSIFICATION REPORT
+![image](https://github.com/user-attachments/assets/9dca7f91-7d47-4044-88ca-af9627d61d1b)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
